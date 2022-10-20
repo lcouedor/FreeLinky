@@ -5,4 +5,4 @@ Elle gère la consommation électrique d'un ménage, selon la consommation des d
 Il est également possible de créer différents profils pour sauvegarder différentes configurations.
 Elle propose aussi des changements de forfaits EDF plus adaptés à la consommation afin de réaliser des économies.
 
-Il est nécessaire d'avoir un environnement java correctement installé pour exécuter le fichier jar de l'application.
+Il est nécessaire d'avoir un environnement java et javaFX correctement installé pour exécuter le fichier jar de l'application.
