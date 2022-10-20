@@ -1,0 +1,631 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root { 
+	-fx-focus-color: -fx-text-box-border ;
+    -fx-faint-focus-color: transparent ;
+    orangeedf: #fe5815;
+    bleuedf: #09357a;
+    vertedf: #529e30;
+    -fx-font-size: 22;
+}
+
+#nul{
+	-fx-font-size: 350;
+}
+
+.root *{
+	-fx-text-fill: bleuedf;
+}
+
+#selectionappareil{
+	-fx-background-color: #fff; 
+}
+
+#selectionappareil FlowPane .split-menu-button .label, #selectionappareil FlowPane .split-menu-button .arrow-button, FlowPane .split-menu-button{
+     -fx-background-color: #fff;  
+     -fx-border-color: bleuedf;
+     -fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+	
+}
+
+#selectionappareil FlowPane .split-menu-button .arrow-button, #selectionappareil FlowPane .split-menu-button .label{
+	-fx-background-color: transparent; 
+	-fx-border-width: 0;
+	}
+	
+#selectionappareil FlowPane .split-menu-button .arrow-button{
+	-fx-background-image: url("/croixbleue.png");
+	-fx-background-position: right, center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: contain, auto;
+	-fx-translate-x: -5px;
+	-fx-padding: 2px;
+}	
+	
+#selectionappareil FlowPane .split-menu-button:hover .arrow-button{
+	-fx-background-image: url("/croixorange.png");
+}	
+	
+#selectionappareil FlowPane .split-menu-button:hover, #selectionappareil FlowPane .split-menu-button:hover .label{
+	-fx-text-fill:orangeedf;
+    -fx-border-color: orangeedf;
+}	
+	
+#selectionappareil FlowPane .split-menu-button .arrow{
+	-fx-opacity: 0;
+}
+
+#selectionappareil HBox .button, #selectionappareil HBox .label, #selectionappareil HBox .toggle-button{
+	-fx-background-color: transparent; 
+	-fx-border-width: 0;
+}
+
+#selectionappareil HBox .button, #selectionappareil HBox .toggle-button{
+	-fx-underline: true;
+}
+
+#selectionappareil #supprimer{
+	-fx-text-fill: #f00;
+}
+
+#selectionappareil MenuButton{
+	-fx-background-color: #fff;
+	-fx-border-color: bleuedf;
+}
+
+#selectionappareil MenuButton .arrow{
+	-fx-background-color: bleuedf;
+}
+
+#selectionappareil MenuButton .menu-item:focused{
+    -fx-background-color: #09357ab5;
+}
+
+#selectionappareil MenuButton:focused .menu-item:focused .label{
+	-fx-text-fill: #fff;
+}
+
+#selectionappareil #bouton{
+	-fx-background-color: #fff;
+	-fx-border-width: 1;
+	-fx-border-color: bleuedf;
+	-fx-underline: false;
+}
+
+#selectionappareil #bouton:hover{
+	-fx-border-width: 1;
+	-fx-text-fill: orangeedf;
+	-fx-border-color: orangeedf;
+	-fx-underline: false;
+}
+
+#selectionappareil #bouton:hover>.label{
+	-fx-text-fill: orangeedf;
+}
+
+#selectionappareil #bouton:hover .arrow{
+	-fx-background-color: orangeedf;
+}
+
+#selectionappareil > .check-box{
+	-fx-padding: 0 30 0 0;
+}
+
+#selectionappareil .context-menu {
+    -fx-max-width: 400;
+}
+
+
+
+
+
+
+
+
+#ajoutappareil{
+	-fx-background-color: #fff;
+}
+
+#ajoutappareil *{
+	-fx-padding: 5;
+}
+
+#ajoutappareil .text-field{
+	-fx-text-fill: bleuedf;
+	-fx-border-color: bleuedf;
+}
+
+#ajoutappareil .text-field:focused{
+	-fx-border-color: orangeedf;
+}
+
+#ajoutappareil #TextFieldError{
+	-fx-border-color: #f00;
+}
+
+#ajoutappareil #TextFieldSuccess{
+	-fx-border-color: #529e30;
+}
+
+#ajoutappareil #donneesSaisiesInvalides{
+	-fx-text-fill: #f00;
+	-fx-border-color: transparent;
+}
+
+#ajoutappareil #appareilAjoute{
+	-fx-text-fill: #529e30;
+	-fx-border-color: transparent;
+}
+
+
+
+
+
+#gestionprofils #bleu, #gestionprofils #bleuclair{
+	-fx-background-color: transparent;
+	-fx-text-fill: bleuedf;
+}
+
+
+#gestionfiltres, #gestionprofils{
+	-fx-background-color: #fff;
+}
+
+#gestionfiltres .list-view .list-cell:odd:selected, #gestionfiltres .list-view .list-cell:even:selected, #gestionprofils .list-view .list-cell:odd:selected, #gestionprofils .list-view .list-cell:even:selected{
+	-fx-border-color: orangeedf;
+    -fx-border-width: 2;
+}
+
+#modifierfiltre, #modifierprofil, #ajouterprofil{
+	-fx-background-color: #fff;
+}
+
+#modifierfiltre .text-field, #modifierprofil .text-field, #ajouterprofil .text-field{
+	-fx-border-color: bleuedf;
+}
+
+#modifierfiltre .text-field:focused, #modifierprofil .text-field:focused, #ajouterprofil .text-field:focused{
+	-fx-border-color: orangeedf;
+}
+
+
+
+
+
+
+#ajouterfiltre{
+	-fx-background-color: #fff;
+}
+
+#ajouterfiltre .text-field{
+	-fx-border-color: bleuedf;
+}
+
+#ajouterfiltre .text-field:focused{
+	-fx-border-color: orangeedf;
+}
+
+#ajouterfiltre .list-view .list-cell:odd:selected{
+	-fx-background-color: #09357a82;
+	-fx-text-fill: #fff;
+}
+
+#ajouterfiltre .list-view .list-cell:even:selected{
+	-fx-background-color: #09357ac4;
+	-fx-text-fill: #fff;
+}
+
+#ajouterfiltre #TextFieldError{
+	-fx-border-color: #f00;
+}
+
+#ajouterfiltre #TextFieldSuccess{
+	-fx-border-color: #529e30;
+}
+
+#ajouterfiltre #donneesSaisiesInvalides{
+	-fx-text-fill: #f00;
+	-fx-border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+#selectionforfait HBoxTriable GridPane .label{
+	-fx-border-color: #fff;
+	-fx-border-width: 1;
+}
+
+#selectionforfait MenuButton{
+	-fx-background-color: #fff;
+	-fx-border-color: bleuedf;
+}
+
+#selectionforfait MenuButton:hover{
+	-fx-border-color: orangeedf;
+}
+
+#selectionforfait MenuButton:hover > .label{
+	-fx-text-fill: orangeedf;
+}
+
+#selectionforfait MenuButton:hover .arrow{
+	-fx-background-color: orangeedf;
+}
+
+#selectionforfait MenuButton .arrow{
+	-fx-background-color: bleuedf;
+}
+
+#selectionforfait MenuButton .menu-item:focused{
+    -fx-background-color: #09357ab5;
+}
+
+#selectionforfait MenuButton:focused .menu-item:focused .label{
+	-fx-text-fill: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#affichagesimulation{
+	-fx-background-color: #fff;
+}
+
+#affichagesimulation > .label, #messagedates{
+	-fx-font-size: 30;
+}
+
+#affichagesimulation #conseil{
+	-fx-text-fill: orangeedf;
+}
+
+#affichagesimulation VBox > .label{
+	-fx-font-size: 26;
+}
+
+#affichagesimulation #bleu, #affichagesimulation #bleuclair{
+	-fx-background-color: transparent;
+	-fx-text-fill: bleuedf;
+	-fx-font-size: 26;
+}
+
+#affichagesimulation .list-view #bleu, #affichagesimulation .list-view #bleuclair{
+	-fx-font-size: 22;
+}
+
+#affichagesimulation #coutforfait #bleu{
+	-fx-font-size: 22;
+	-fx-background-color: #09357ac4;
+	-fx-text-fill: #fff;
+}
+
+#affichagesimulation #coutforfait #bleuclair{
+	-fx-font-size: 22;
+	-fx-background-color: #09357a82;
+	-fx-text-fill: #fff;
+}
+
+#comparatif{
+	-fx-background-color: #fff;
+}
+
+#comparatif > HBox .label{
+	-fx-font-size: 26;
+	-fx-background-color: #fff;
+	-fx-padding: 0 10 0 10;
+}
+
+#comparatif #ligne{
+	-fx-background-color: orangeedf;
+	-fx-background-insets: 19 0 13 0;
+}
+
+#comparatif #ligne .label{
+	-fx-background-color: #fff;
+}
+
+#comparatif #bleu, #comparatif #bleuclair{
+	-fx-text-fill: bleuedf;
+	-fx-background-color: transparent;
+}
+
+#comparatif VBox GridPane GridPane #bleu{
+	-fx-text-fill: #fff;
+	-fx-background-color: #09357ac4;
+	-fx-border-width: 1;
+	-fx-border-color: #fff;
+}
+
+#comparatif VBox GridPane GridPane #bleuclair{
+	-fx-text-fill: #fff;
+	-fx-background-color: #09357a82;
+	-fx-border-width: 1;
+	-fx-border-color: #fff;
+}
+
+#comparatif VBox > HBox .label{
+	-fx-font-size: 30;
+}
+
+#comparatif #moins{
+	-fx-text-fill: vertedf;
+}
+
+#comparatif #plus{
+	-fx-text-fill: #f00;
+}
+
+#comparatif #egal{
+	-fx-text-fill: bleuedf;
+}
+
+
+
+
+
+
+
+
+
+
+.list-view-perso > .virtual-flow > .scroll-bar,
+.list-view-perso > .virtual-flow > .scroll-bar .decrement-arrow,
+.list-view-perso > .virtual-flow > .scroll-bar .increment-arrow,
+.list-view-perso > .virtual-flow > .scroll-bar .decrement-button,
+.list-view-perso > .virtual-flow > .scroll-bar .increment-button {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+ 
+.list-view-perso .scroll-bar-perso:vertical .thumb {
+    -fx-background-insets: 0 2 0 0;
+}
+ 
+.list-view-perso .scroll-bar-perso:horizontal .thumb {
+    -fx-background-insets: 0 0 2 0;
+    -fx-background-color: transparent;
+}
+ 
+.list-view-perso .scroll-bar-perso .decrement-arrow,
+.list-view-perso .scroll-bar-perso .increment-arrow {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+ 
+.list-view-perso .scroll-bar-perso {
+    -fx-background-color: transparent;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+    -fx-padding: 2;
+}
+ 
+.list-view-perso .scroll-bar-perso .thumb {
+    -fx-background-color: rgba(0, 0, 0, .2);
+    -fx-background-radius: 1000;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+}
+ 
+.list-view .list-cell:even{
+	-fx-background-color: #fe581540;
+}
+
+.list-view .list-cell:odd{
+	-fx-background-color: #fe581521;
+} 
+ 
+ScrollPane{
+	-fx-border-color: #fff;
+	-fx-background-color: #fff;
+} 
+ 
+ScrollPane .viewport{
+	-fx-background-color: #fff;
+}
+ 
+ScrollPane .scroll-bar .decrement-button, ScrollPane .scroll-bar .increment-button, ScrollPane .scroll-bar .decrement-arrow, ScrollPane .scroll-bar .increment-arrow{
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+ 
+ScrollPane .corner {
+    -fx-background-color: #fff;
+} 
+ 
+ScrollPane .scroll-bar .track{
+    -fx-background-color: #fff;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+    -fx-padding: 2;
+}
+ 
+ScrollPane .scroll-bar .thumb {
+    -fx-background-color: rgba(0, 0, 0, .2);
+    -fx-background-radius: 1000;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nom{
+	-fx-font-size: 40;
+}
+
+#bleuclair{
+	-fx-background-color: #09357a82;
+	-fx-text-fill: #fff;
+}
+
+#bleu{
+	-fx-background-color: #09357ac4;
+	-fx-text-fill: #fff;
+}
+
+
+
+#dates{
+	-fx-background-color: #fff;
+}
+
+#dates .date-picker > .arrow-button {
+    -fx-background-color: #fff;
+    -fx-border-color: bleuedf;
+}
+
+#dates .date-picker > .arrow-button:hover {
+	-fx-border-color: orangeedf;
+}
+
+.date-picker > .arrow-button > .arrow {
+    -fx-background-color: bleuedf;
+    -fx-font-size: 25;
+}
+
+.date-picker > .arrow-button:hover > .arrow {
+    -fx-background-color: orangeedf;
+}
+
+
+
+
+
+
+#attention{
+	-fx-background-color: #fff;
+}
+
+#attention #deuxboutons{
+	-fx-padding: 10 0 0 0;
+}
+
+
+
+
+
+.button{
+	-fx-background-color: #fff;
+	-fx-border-color: bleuedf;
+}
+
+.button:hover{
+	-fx-border-color: orangeedf;
+	-fx-text-fill: orangeedf;
+}
+
+
+#vert:hover{
+	-fx-border-color: #529e30;
+	-fx-text-fill: #529e30;
+}
+
+#rouge:hover{
+	-fx-border-color: #f00;
+	-fx-text-fill: #f00;
+}
+
+.text-field{
+	-fx-border-color: bleuedf;
+}
+
+.text-field:focused{
+	-fx-border-color: orangeedf;
+}
+
+.check-box .box{
+	-fx-border-color: bleuedf;
+	-fx-border-width: 2;
+	-fx-background-color: transparent;
+	-fx-padding: 3;
+}
+
+.check-box:selected .mark{
+	-fx-background-image: url("/carrebleu.png");
+	-fx-background-position: center;
+  	-fx-background-repeat: stretch;
+  	-fx-shape: none;
+  	
+}
+
+.check-box:hover .box{
+	-fx-border-color: orangeedf;
+}
+
+.check-box:selected:hover .mark{
+	-fx-background-image: url("/carreorange.png");
+	-fx-mark-color: orangeedf;
+}
+
+.check-box .mark {
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+}
+
+#boutontuto{
+	-fx-background-image: url(/helpbleu.png);
+	-fx-background-position: center;
+  	-fx-background-repeat: no-repeat;
+  	-fx-background-size: contain;
+}
+
+#boutontuto:hover{
+	-fx-background-image: url(/helporange.png);
+}
+
+#fenetreprincipale{
+	-fx-background-color: #fff;
+}
+
+#fenetreprincipale > *{
+	-fx-padding: 0 20 0 20;
+}
+
+#selectionforfait, #affichagesimulation{
+	-fx-border-width: 7;
+	-fx-border-color: transparent transparent transparent bleuedf;
+}
+
+#selectionappareil{
+	-fx-padding: 10 20 10 20;
+}
+
